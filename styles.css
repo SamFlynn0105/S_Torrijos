@@ -1,0 +1,200 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #282c34;
+    min-height: 100vh;
+    margin: 0;
+    display: block;
+}
+
+.divisor-line {
+    width: 70%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px;
+    
+
+}
+
+.head-1 {
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    
+    padding: 40px 0px 0px 0px;
+}
+
+.typewriter {
+    /*justify-content: center;
+    align-items: normal;*/
+    display: flex;
+    margin: auto;
+    color: #61dafb;
+    float: left;
+    padding: 60px 0px 0px 0px;
+    h1 {
+        border-right: .15em solid #61dafb;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.image-container {
+    width: 170px;
+    height: 170px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 5px; /* Ajuste para un pequeño margen */
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    /*align-items: flex-start;*/
+    float: right;
+
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+}
+
+.navegador {
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+    display: table;
+
+    nav {
+        display: flex;
+        justify-content: left;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        display: block;
+    }
+    nav a:hover {
+        background-color: #575757;
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #61dafb }
+}
+
+.sobreMi {
+   
+    width: 70%;
+    margin: auto;
+    padding: 15px 0px 25px 0px;
+    color: #61dafb;
+}
+
+.inf_me {
+    width: 70%;
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    color: #61dafb;
+    text-align: justify;
+    align-content: center;
+    padding: 5px 0px 0px 30px;
+
+}
+
+.trayec {
+    width: 70%;
+    margin: auto;
+    padding: 15px 0px 25px 0px;
+    color: #61dafb; 
+    
+    .cont-exp {
+        width: 90%;
+        margin: auto;
+        border-left: 1px solid rgb(68, 68, 68);
+        /*border: 1px 0px 0px 0px;*/
+        padding-left: 20px ;
+        padding-bottom: 20px; 
+    }
+}
+
+.estudi {
+    width: 70%;
+    margin: auto;
+    padding: 15px 0px 25px 0px;
+    color: #61dafb;
+
+    .cont-exp-1 {
+        width: 90%;
+        margin: auto;
+        border-left: 1px solid rgb(68, 68, 68);
+        /*border: 1px 0px 0px 0px;*/
+        padding-left: 20px ;
+        padding-bottom: 20px; 
+    }
+}
+
+/*firma Stot*/
+footer {
+    position: sticky;
+    top: 100vh;
+
+.firmaStot {
+    text-align: right;
+    background-color: rgb(0, 0, 0) ;
+    color: rgb(85, 82, 82);
+    margin: auto;
+    width: 100%;
+
+    nav {
+        display: flex;
+        justify-content: right;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 20px 0px 20px;
+        display: block;
+    }
+    nav a:hover {
+        background-color: #575757;
+    }
+}
+}
+
+#fade-in-div {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    padding: 20px;
+}
+
+#fade-in-div.visible {
+    opacity: 1;
+}
+
+/* styles.css */
+#toTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: none; /* Oculto por defecto */
+}
+
+#toTopBtn:hover {
+    background-color: #ffffff;
+}
