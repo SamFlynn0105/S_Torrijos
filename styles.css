@@ -63,7 +63,7 @@ body {
     margin: auto;
     padding: 5px;
     display: table;
-    font-size: small;
+    
 
     nav {
         display: flex;
@@ -105,7 +105,7 @@ body {
     color: #61dafb;
     text-align: justify;
     align-content: center;
-    padding: 5px 0px 0px 30px;
+    /*padding: 5px 0px 0px 30px;*/
 
 }
 

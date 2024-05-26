@@ -58,6 +58,7 @@
 
     .navegador {
         width: 90%;
+        font-size: small;
     
         nav {
             display: contents;
