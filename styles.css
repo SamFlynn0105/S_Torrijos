@@ -1,259 +1,271 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #282c34;
-    min-height: 100vh;
-    margin: 0;
-    display: block;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #282c34;
+  min-height: 100vh;
+  margin: 0;
+  display: block;
 }
 
 .divisor-line {
-    width: 70%;
-    margin: auto;
-    border: 1px solid rgb(255, 255, 255);
-    border-bottom: 1px;
-    
-
+  width: 70%;
+  margin: auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px;
 }
 
 .head-1 {
-    width: 70%;
-    height: 200px;
-    margin: auto;
-    
-    padding: 40px 0px 0px 0px;
+  width: 70%;
+  height: 200px;
+  margin: auto;
+
+  padding: 40px 0px 0px 0px;
 }
 
 .typewriter {
-    /*justify-content: center;
+  /*justify-content: center;
     align-items: normal;*/
-    display: flex;
-    margin: auto;
-    color: #61dafb;
-    float: left;
-    padding: 60px 0px 0px 0px;
-    h1 {
-        border-right: .15em solid #61dafb;
-        white-space: nowrap;
-        overflow: hidden;
-    }
+  display: flex;
+  margin: auto;
+  color: #61dafb;
+  float: left;
+  padding: 60px 0px 0px 0px;
+  h1 {
+    border-right: 0.15em solid #61dafb;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
 
 .image-container {
-    width: 170px;
-    height: 170px;
-    border: 5px solid #ffffff;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: #fff;
-    margin: 5px; /* Ajuste para un pequeño margen */
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
-    /*align-items: flex-start;*/
-    float: right;
+  width: 170px;
+  height: 170px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 5px; /* Ajuste para un pequeño margen */
+  /*display: flex;*/
+  /*justify-content: flex-end;*/
+  /*align-items: flex-start;*/
+  float: right;
 
-    img {
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    }
+  }
 }
 
 .navegador {
-    width: 70%;
-    margin: auto;
-    padding: 5px;
-    display: table;
-    
+  width: 70%;
+  margin: auto;
+  padding: 5px;
+  display: table;
 
-    nav {
-        display: flex;
-        justify-content: left;
-    }
-    nav a {
-        color: white;
-        text-decoration: none;
-        padding: 10px 10px;
-        display: block;
-    }
-    nav a:hover {
-        background-color: #575757;
-    }
+  nav {
+    display: flex;
+    justify-content: left;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+  }
+  nav a:hover {
+    background-color: #575757;
+  }
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #61dafb }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #61dafb;
+  }
 }
 
 .sobreMi {
-   
-    width: 70%;
-    margin: auto;
-    padding: 15px 0px 25px 0px;
-    color: #61dafb;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 25px 0px;
+  color: #61dafb;
 }
 
 .inf_me {
-    width: 70%;
-    margin: auto;
-    padding: 15px 0px 0px 0px;
-    color: #61dafb;
-    text-align: justify;
-    align-content: center;
-    /*padding: 5px 0px 0px 30px;*/
-
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 0px 0px;
+  color: #61dafb;
+  text-align: justify;
+  align-content: center;
+  /*padding: 5px 0px 0px 30px;*/
 }
 
 .trayec {
-    width: 70%;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 25px 0px;
+  color: #61dafb;
+
+  .cont-exp {
+    width: 90%;
     margin: auto;
-    padding: 15px 0px 25px 0px;
-    color: #61dafb; 
-    
-    .cont-exp {
-        width: 90%;
-        margin: auto;
-        border-left: 1px solid rgb(68, 68, 68);
-        /*border: 1px 0px 0px 0px;*/
-        padding-left: 20px ;
-        padding-bottom: 20px; 
-    }
+    border-left: 1px solid rgb(68, 68, 68);
+    /*border: 1px 0px 0px 0px;*/
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .estudi {
-    width: 70%;
-    margin: auto;
-    padding: 15px 0px 25px 0px;
-    color: #61dafb;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 25px 0px;
+  color: #61dafb;
 
-    .cont-exp-1 {
-        width: 90%;
-        margin: auto;
-        border-left: 1px solid rgb(68, 68, 68);
-        /*border: 1px 0px 0px 0px;*/
-        padding-left: 20px ;
-        padding-bottom: 20px; 
-    }
+  .cont-exp-1 {
+    width: 90%;
+    margin: auto;
+    border-left: 1px solid rgb(68, 68, 68);
+    /*border: 1px 0px 0px 0px;*/
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .skills {
-    width: 70%;
-    margin: auto;
-    padding: 15px 0px 25px 0px;
-    color: #61dafb;
-    display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 25px 0px;
+  color: #61dafb;
+  display: flex;
 
-    li {
-        border: 1px solid rgb(68, 68, 68);
-        border-radius: 5px;
-        padding: 10px 10px 10px 10px;
-    }
+  li {
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
 }
 
 .contact {
-    width: 70%;
-    margin: auto;
-    padding: 15px 0px 25px 0px;
-    color: #61dafb;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0px 25px 0px;
+  color: #61dafb;
 }
 
 /* seccion  contacto*/
 .social {
-	position: relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-	/*left: 0; /* Establecemos la barra en la izquierda */
-    top: 10px; /* Bajamos la barra 200px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  position: relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  /*left: 0; /* Establecemos la barra en la izquierda */
+  top: 10px; /* Bajamos la barra 200px de arriba a abajo */
+  z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
 
-	.social ul {
-		list-style:none;
-	}
+.social ul {
+  list-style: none;
+}
 
-	.social ul li a {
-		display: block;
-        width: 100px;
-		color:#fff;
-		background: #000;
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-	}
+.social ul li a {
+  display: block;
+  width: 100px;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
 
-	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	.social ul li .icon-linkedin {background: #00abf0;}
-    .social ul li .icon-github {background: #242526;}
-	.social ul li .icon-mail {background: #666666;}
+.social ul li .icon-facebook {
+  background: #3b5998;
+} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-linkedin {
+  background: #00abf0;
+}
+.social ul li .icon-github {
+  background: #242526;
+}
+.social ul li .icon-mail {
+  background: #666666;
+}
 
-	.social ul li a:hover {
-		/* Cambiamos el fondo cuando el usuario pase el mouse */
-    background: #000; 
-    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-		padding: 10px 30px; 
-	}
+.social ul li a:hover {
+  /* Cambiamos el fondo cuando el usuario pase el mouse */
+  background: #000;
+  /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  padding: 10px 30px;
+}
 
 /*firma Stot*/
 footer {
-    position: sticky;
-    top: 100vh;
+  position: sticky;
+  top: 100vh;
 
-.firmaStot {
+  .firmaStot {
     text-align: right;
-    background-color: rgb(0, 0, 0) ;
+    background-color: rgb(0, 0, 0);
     color: rgb(85, 82, 82);
     margin: auto;
     width: 100%;
 
     nav {
-        display: flex;
-        justify-content: right;
+      display: flex;
+      justify-content: right;
     }
     nav a {
-        color: white;
-        text-decoration: none;
-        padding: 0px 20px 0px 20px;
-        display: block;
+      color: white;
+      text-decoration: none;
+      padding: 0px 20px 0px 20px;
+      display: block;
     }
     nav a:hover {
-        background-color: #575757;
+      background-color: #575757;
     }
-}
+  }
 }
 
 #fade-in-div {
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
-    padding: 20px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  padding: 20px;
 }
 
 #fade-in-div.visible {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* styles.css */
 #toTopBtn {
-    position: fixed;
-    margin: auto;
-    bottom: 40px;
-    right: 40px;
-    z-index: 100;
-    border: none;
-    outline: none;
-    background-color: #537ced;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 18px;
-    display: none; /* Oculto por defecto */
+  position: fixed;
+  margin: auto;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+  border: none;
+  outline: none;
+  background-color: #537ced;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  display: none; /* Oculto por defecto */
 }
 
 #toTopBtn:hover {
-    background-color: #000000;
+  background-color: #000000;
 }
