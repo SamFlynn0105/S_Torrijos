@@ -188,6 +188,7 @@ body {
 
 /* seccion  contacto*/
 .social {
+  width: 60%;
   position: relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
   /*left: 0; /* Establecemos la barra en la izquierda */
   top: 10px; /* Bajamos la barra 200px de arriba a abajo */
@@ -200,7 +201,7 @@ body {
 
 .social ul li a {
   display: block;
-  width: 100px;
+  width: 150px;
   color: #fff;
   background: #000;
   padding: 10px 15px;
@@ -222,12 +223,16 @@ body {
 .social ul li .icon-mail {
   background: #666666;
 }
-
+.social ul li .icon-cv {
+  background: #20c20b;
+  color: #000;
+}
 .social ul li a:hover {
   /* Cambiamos el fondo cuando el usuario pase el mouse */
   background: #000;
   /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
   padding: 10px 30px;
+  color: #fff;
 }
 
 /*firma Stot*/
